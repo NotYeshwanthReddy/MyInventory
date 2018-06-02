@@ -1,5 +1,6 @@
 # MyInventory
 # Created by Yeshwanth Reddy on 22-04-18.
+# Developrs - Yeshwanth Reddy, Nikhil Reddy.
   This Project is a food ordering app made specifically for our college purpose.
   We have 3 food points in the campus, Nescafe, HOD(hot oven Delivery) and TMP(tera mera point).
   So the app consists of 3 tabs consisting of items each food points offer.
