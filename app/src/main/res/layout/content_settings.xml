@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.yeshwanth.myinventory.SettingsActivity"
+    tools:showIn="@layout/activity_settings">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:textColor="@color/colorBlack"
+                android:textSize="22sp"
+                android:text="@string/name1"/>
+            <TextView
+                android:id="@+id/TextViewName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textview1"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorBlack"
+                android:layout_toEndOf="@+id/textview1"/>
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textview1"
+                android:layout_below="@+id/textview1"
+                android:layout_marginTop="15dp"
+                android:textSize="22sp"
+                android:textColor="@color/colorBlack"
+                android:text="@string/email1"/>
+            <TextView
+                android:id="@+id/TextViewEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textview2"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorBlack"
+                android:layout_toEndOf="@+id/textview2"/>
+
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textview2"
+                android:layout_below="@+id/textview2"
+                android:layout_marginTop="15dp"
+                android:textSize="22sp"
+                android:textColor="@color/colorBlack"
+                android:text="@string/id"/>
+            <TextView
+                android:id="@+id/TextViewUserID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textview3"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorBlack"
+                android:layout_toEndOf="@+id/textview3"/>
+
+
+            <TextView
+                android:id="@+id/textview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textview3"
+                android:layout_below="@+id/textview3"
+                android:layout_marginTop="15dp"
+                android:textSize="22sp"
+                android:textColor="@color/colorBlack"
+                android:text="@string/phone_no"/>
+            <TextView
+                android:id="@+id/TextViewMobileNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textview4"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/colorBlack"
+                android:layout_toEndOf="@+id/textview4"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/LogoutButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:text="@string/logout"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:onClick="LogoutFunction"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabReportABug"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        app:backgroundTint="@color/colorBlack"
+        app:srcCompat="@drawable/mail" />
+
+</RelativeLayout>

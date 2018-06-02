@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">My Inventory</string>
+    <string name="tab_text_1">Nescafe</string>
+    <string name="tab_text_2">HOD</string>
+    <string name="tab_text_3">TMP</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_my_cart">MyCart</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="ItemCost">Nee Aasthi</string>
+    <string name="ItemAvailability">Undi lee</string>
+    <string name="ItemName">Dick</string>
+    <string name="email">Email *</string>
+    <string name="password">Password *</string>
+    <string name="passwordhint">* * * * * * * * * *</string>
+    <string name="login">Login</string>
+    <string name="i_m_new_here_register">I\'m new here / Register</string>
+    <string name="xyz_st_niituniversity_in">xyz@st.niituniversity.in</string>
+    <string name="nu_logo">NU_Logo</string>
+    <string name="name">Name *</string>
+    <string name="user_name">User Name</string>
+    <string name="enrollment_number">Enrollment Number *</string>
+    <string name="phone_number">Phone Number*</string>
+    <string name="s5">S5</string>
+    <string name="section">Section *</string>
+    <string name="_2016">2016</string>
+    <string name="batch">Batch *</string>
+    <string name="u101116fcs155">U101116FCS155</string>
+    <string name="confirm_password">Confirm Password *</string>
+    <string name="i_have_an_account_login">I have an account / Login</string>
+    <string name="register">Register</string>
+    <string name="phoneNoHint">9100990076</string>
+    <string name="logout">Logout</string>
+    <string name="phone_no">Phone No. :</string>
+    <string name="id">ID :</string>
+    <string name="email1">Email :</string>
+    <string name="name1">Name :</string>
+    <string name="available">Available</string>
+    <string name="RupeeSign">₹</string>
+</resources>

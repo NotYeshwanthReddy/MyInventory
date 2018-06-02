@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<ImageView-->
+                <!--android:id="@+id/Image"-->
+                <!--android:layout_width="120dp"-->
+                <!--android:layout_height="150dp"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--app:srcCompat="@drawable/nu_logo"-->
+                <!--android:contentDescription="@string/nu_logo" />-->
+            <!--android:layout_below="@+id/Image"-->
+            <TextView
+                android:id="@+id/TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="150dp"
+                android:text="@string/email"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp"/>
+            <EditText
+                android:id="@+id/Email_ID_1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignStart="@+id/TextView"
+                android:layout_marginEnd="30dp"
+                android:layout_below="@+id/TextView"
+                android:hint="@string/xyz_st_niituniversity_in"
+                android:inputType="textEmailAddress"/>
+
+            <TextView
+                android:id="@+id/TextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TextView"
+                android:layout_alignStart="@+id/TextView"
+                android:layout_marginTop="60dp"
+                android:text="@string/password"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp"/>
+            <EditText
+                android:id="@+id/Password_1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_alignStart="@+id/TextView5"
+                android:layout_alignEnd="@+id/Email_ID_1"
+                android:layout_below="@+id/TextView5"
+                android:hint="@string/passwordhint"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/Login_Button"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Password_1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:background="@color/colorAccent"
+                android:text="@string/login"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:onClick="LoginButton"/>
+            <TextView
+                android:id="@+id/Register_Link"
+                android:layout_width="wrap_content"
+                android:layout_height="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/Login_Button"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="50dp"
+                android:text="@string/i_m_new_here_register"
+                android:textSize="12sp"
+                android:textColor="@color/colorPrimary"
+                android:textAllCaps="false"
+                android:onClick="RegisterAct"/>
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>

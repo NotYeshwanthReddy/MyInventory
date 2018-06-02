@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/MenuCardView"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="4dp"
+        app:cardCornerRadius="8dp"
+        android:stateListAnimator="@animator/lift_on_touch"
+        android:contextClickable="true">
+        <RelativeLayout
+            android:id="@+id/CardRelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="22sp"
+                android:textColor="@color/colorBlack"
+                android:text="@string/ItemName"/>
+
+            <TextView
+                android:id="@+id/ItemCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/ItemName"
+                android:layout_toRightOf="@+id/Symbol"
+                android:textSize="20sp"
+                android:text="@string/ItemCost" />
+
+            <TextView
+                android:id="@+id/Symbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/ItemName"
+                android:layout_alignStart="@+id/ItemName"
+                android:textSize="20sp"
+                android:text="@string/RupeeSign" />
+
+            <TextView
+                android:id="@+id/Available"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:layout_alignTop="@+id/ItemName"
+                android:layout_marginTop="15dp"
+                android:text="@string/available" />
+
+            <TextView
+                android:id="@+id/AvailableQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/Available"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="1dp"
+                android:text="@string/ItemAvailability" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
