@@ -4,8 +4,8 @@
     Created on 22-04-18.<br/>
     Developer - Yeshwanth Reddy.
 </sub>
-
-
+<br/>
+<br/>
   This Project is a food ordering app made specifically for our college purpose. <br/>
   It uses MySQL as database for storing user details. The orders from the android app can be viewed frim the desktop application whick is available in support files folder. <br/>
   We have 3 food points in the campus, Nescafe, HOD(hot oven Delivery) and TMP(tera mera point). <br/>
