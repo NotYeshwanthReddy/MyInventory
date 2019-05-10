@@ -1,7 +1,9 @@
 # MyInventory
 
-Created on 22-04-18.<br/>
-Developer - Yeshwanth Reddy.
+<sub>
+    Created on 22-04-18.<br/>
+    Developer - Yeshwanth Reddy.
+</sub>
 
 
   This Project is a food ordering app made specifically for our college purpose. <br/>
